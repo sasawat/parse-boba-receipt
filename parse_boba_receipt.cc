@@ -115,7 +115,6 @@ int main(int argc, char **argv) {
 		std::cerr << "Total price not found" << std::endl;
 	}
 	double multiplier = total / subtotal;
-	double real = 0;
 	for (auto& tab : tabs) {
 		tab.print(std::cout, multiplier);
 	}
